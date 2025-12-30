@@ -1,3 +1,5 @@
+import java.util.HashMap;
+
 /**
  * OOPSBannerApp
  *
@@ -102,9 +104,33 @@ public class OOPSBannerApp {
                 };
     }
 
+    // creates a hashmap with key as char and value as pattern
+    public static HashMap<Character, String[]> createCharacterMap() {
+        HashMap<Character, String[]> map = new HashMap<>();
+        map.put('O', getOPattern());
+        map.put('P', getPPattern());
+        map.put('S', getSPattern());
+        return map;
+    }
+
+    public static void displayBanner(String message, HashMap<Character, String[]> map) {
+        int patternHeight = map.get('O').length;
+        for (int row = 0; row < patternHeight; row++) {
+            for (char ch : message.toCharArray()) {
+                String[] pattern = map.get(ch);
+                if (pattern != null) {
+                    System.out.print(pattern[row] + "  ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
-        CharacterPatternMap[] maps = createCharacterPatternMap();
+//        CharacterPatternMap[] maps = createCharacterPatternMap();
+        HashMap<Character, String[]> characterHashMap =  createCharacterMap();
         String message = "OOPS";
-        printMessage(message, maps);
+        displayBanner(message, characterHashMap);
+//        printMessage(message, maps);
     }
 }
