@@ -18,6 +18,11 @@ public class Employee {
         this.account = account;
     }
 
+    public Employee(String empId, String name) {
+        this.empId = empId;
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "Employee{" +
@@ -34,5 +39,37 @@ public class Employee {
         FileWriter writer = new FileWriter("employee_data.txt", true);
         writer.write(empId + "," + name + "," + email + "," + phone + "," + account.getUsername() + "\n");
         writer.close();
+    }
+
+    public String getEmpId() {
+        return empId;
+    }
+
+    public void setEmpId(String empId) {
+        this.empId = empId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 }
