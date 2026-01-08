@@ -1,3 +1,12 @@
+/**
+ * Employee Payroll App UC1 - Employee Registration
+ *
+ * Register a new employee with validated personal and salary information.
+ *
+ * @author tp
+ * @version 1.0
+ * */
+
 package com.bridgelabz.employeepayrollapp;
 
 import com.bridgelabz.employeepayrollapp.entity.Employee;
