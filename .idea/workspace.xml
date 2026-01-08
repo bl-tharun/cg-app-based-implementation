@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="be68703e-feaf-41fc-9cd3-2c713233ae40" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOPSBannerApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOPSBannerApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OOPSBannerApp$CharacterPatternMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OOPSBannerApp$CharacterPatternMap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OOPSBannerApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OOPSBannerApp.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -25,28 +23,32 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "onizukaTP"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;onizukaTP&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/onizukaTP/cg-app-based-implementation.git",
-    "accountId": "8f0d3a23-541c-4b2b-9b3a-fab85805e4e8"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/onizukaTP/cg-app-based-implementation.git&quot;,
+    &quot;accountId&quot;: &quot;8f0d3a23-541c-4b2b-9b3a-fab85805e4e8&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="37YI1hIh4ggLeaIQnF9LVRhQFF0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.EmployeeRegistrationApp.executor": "Run",
     "Application.OOPSBannerApp.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -59,7 +61,25 @@
     "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.bridgelabz.employeepayrollapp.entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.EmployeeRegistrationApp">
+    <configuration name="EmployeeRegistrationApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bridgelabz.employeepayrollapp.EmployeeRegistrationApp" />
+      <module name="simple-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bridgelabz.employeepayrollapp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OOPSBannerApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="OOPSBannerApp" />
       <module name="simple-app" />
@@ -69,6 +89,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeRegistrationApp" />
         <item itemvalue="Application.OOPSBannerApp" />
       </list>
     </recent_temporary>
