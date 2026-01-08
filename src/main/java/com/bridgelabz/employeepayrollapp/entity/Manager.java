@@ -1,0 +1,15 @@
+package com.bridgelabz.employeepayrollapp.entity;
+
+import com.bridgelabz.employeepayrollapp.util.PasswordUtil;
+
+public class Manager extends User{
+    public Manager(String username, String password) {
+        super(username, password, "MANAGER");
+    }
+
+    @Override
+    public boolean authenticate(String username, String password) {
+        return this.username.equals(username) &&
+                this.passwordHash.equals(PasswordUtil.hash(password));
+    }
+}
